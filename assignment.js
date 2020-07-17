@@ -5,13 +5,13 @@ function feetToMile(input) {
         var mile = 0.000189394;
         var result = input * mile;
         result = result.toFixed(2);
-        return result;
+        return result + " mile";
     } else {
         return "sorry input is wrong";
     } 
 }
 
-//console.log(feetToMile(10000) + " mile");
+//console.log(feetToMile(10000));
 
 
 
@@ -36,6 +36,7 @@ function woodCalculator(chair, table, bed) {
     } 
 }
 //console.log(woodCalculator(10,2,1) );
+
 
 
 
@@ -69,6 +70,8 @@ function brickCalculator(num) {
     }
 }
 //console.log(brickCalculator(30));
+
+
 
 
 
