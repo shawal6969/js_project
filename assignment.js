@@ -28,14 +28,14 @@ function woodCalculator(chair, table, bed) {
         var resultOfTable = table * woodForTable;
         var resultOfBed = bed * woodForBed;
     
-        var result = resultOfChair + resultOfTable + resultOfBed + " cubic foot wood total";
+        var result = resultOfChair + resultOfTable + resultOfBed;
         // return 
         return result;
     } else {
         return "sorry wrong input"
     } 
 }
-//console.log(woodCalculator(10,2,1) );
+//console.log(woodCalculator(10,2,5) );
 
 
 
@@ -70,8 +70,6 @@ function brickCalculator(num) {
     }
 }
 //console.log(brickCalculator(30));
-
-
 
 
 
